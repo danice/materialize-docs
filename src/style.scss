@@ -314,14 +314,7 @@ ul.table-of-contents {
   margin: 0;
   top: 65px;
   left: 340px;
-  @media #{$medium-and-down} {
-    top: 65px;
-    left: 100px;
-  }
-  @media #{$small-and-down} {
-    top: 160px;
-    left: 35px;
-  }
+ 
   z-index: 9999;
   background-color: var(--md-sys-color-surface);
   a {
@@ -337,6 +330,14 @@ ul.table-of-contents {
     }
     white-space: nowrap;
     display: block;
+  }
+  @media #{$medium-and-down} {
+    top: 65px;
+    left: 100px;
+  }
+  @media #{$small-and-down} {
+    top: 160px;
+    left: 35px;
   }
 }
 
